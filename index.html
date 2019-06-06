@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Hello World!</title>
+  </head>
+  <body>
+    <h1>Hello World!</h1>
+    Stiamo utilizzando Node.js <script>document.write(process.versions.node)</script>,
+    Chrome <script>document.write(process.versions.chrome)</script>,
+    ed Electron <script>document.write(process.versions.electron)</script>,
+    and SerialPort <script>document.write(require('serialport/package').version)</script>.
+
+	<div id="error"></div>
+	<div id="ports"></div>
+
+<script>
+require('./render.js')
+</script>
+  </body>
+</html>

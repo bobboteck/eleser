@@ -1,0 +1,20 @@
+{
+  "name": "eleser",
+  "version": "1.0.0",
+  "description": "Test",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "electron ."
+  },
+  "author": "bobboteck",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "4.0.3",
+    "electron-rebuild": "^1.8.5"
+  },
+  "dependencies": {
+    "data-table": "^2.0.0",
+    "serialport": "^7.1.5"
+  }
+}
